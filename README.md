@@ -1,15 +1,3 @@
----
-title: "Topic 3 : Proteome-wide Screen for RNA-dependent Proteins"
-author: "Project overview and guidelines"
-output:
-  html_document:
-    toc: true
-vignette: >
-  %\VignetteIndexEntry{Vignette Title}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
 Supervisor: 
 
 * Maïwen Caudron-Herger (m.caudron@dkfz.de)
