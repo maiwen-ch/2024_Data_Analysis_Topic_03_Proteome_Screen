@@ -12,16 +12,18 @@ In a recently published analysis, an orthogonal approach was applied, free of an
 
 The aim of this project is to automatically identify **RNA-dependent proteins** from the position of the proteins in an untreated cell lysate (control sample) as compared to an RNase-treated lysate (RNase sample). The R-DeeP screen comprises three replicates of each sample, for which 25 fractions are available.  
 
-```{r, include=TRUE, out.width = '60%', fig.align="center", fig.cap=c("Fig. 1 - R-DeeP principle"), echo=FALSE}
-knitr::include_graphics("R-DeeP_Principle.png")
-```
+<div class="figure" style="text-align: center">
+<img src="R-DeeP_Principle.png" alt="Fig. 1 - R-DeeP principle" width="60%" />
+<p class="caption">Fig. 1 - R-DeeP principle</p>
+</div>
 
 In Fig. 1, The principle of the R-DeeP approach based on RNA dependence is depicted.  
 <br>
 
-```{r, include=TRUE, out.width = '60%', fig.align="center", fig.cap=c("Fig. 2 - R-DeeP screen workflow"), echo=FALSE}
-knitr::include_graphics("Screen_Workflow.png")
-```
+<div class="figure" style="text-align: center">
+<img src="Screen_Workflow.png" alt="Fig. 2 - R-DeeP screen workflow" width="60%" />
+<p class="caption">Fig. 2 - R-DeeP screen workflow</p>
+</div>
 
 In Fig. 2, the screen workflow is depicted showing the different steps of the protocol down to the acquisition of the mass spectrometry data.
 
@@ -59,9 +61,10 @@ The objective of this project is to **perform the analysis** of the mass spectro
 
 * Make a **coherent report** of your complete analysis and results using R markdown
 
-```{r, include=TRUE, out.width = '50%', fig.align="center", fig.cap=c("Fig. 3 - Quantitative analysis"), echo=FALSE}
-knitr::include_graphics("Quantitative_Analysis.png")
-```
+<div class="figure" style="text-align: center">
+<img src="Quantitative_Analysis.png" alt="Fig. 3 - Quantitative analysis" width="50%" />
+<p class="caption">Fig. 3 - Quantitative analysis</p>
+</div>
 
 In Fig. 3, the result of the quantitative analysis of an examplary protein is depicted.
 
