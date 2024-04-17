@@ -94,7 +94,7 @@ MS_Table <- read.table("path/to/your/directory/RDeeP_HeLa_NS.csv", header=TRUE, 
 # MS_Table <- read.table("~/Desktop/2024_Data_Analysis_Proteom/RDeeP_HeLa_NS.csv", header=TRUE, row.names=1, sep = ";")
 ```
 
-Row names are protein names formatted as **Entry Name**. More detailed information about each protein can be obtained from the [Uniprot](uniprot.org) webpage.
+Row names are protein names formatted as **Entry Name**. More detailed information about each protein can be obtained from the [Uniprot](https://www.uniprot.org) webpage.
 
 ```{r eval=FALSE}
 head(rownames(MS_Table),12)
